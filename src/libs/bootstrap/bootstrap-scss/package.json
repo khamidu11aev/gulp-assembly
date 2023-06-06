@@ -1,0 +1,52 @@
+{
+  "_from": "bootstrap-scss",
+  "_id": "bootstrap-scss@5.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-3lU/QMvW3VAgPwefBDSI90FY71ShuT7QxIna4sz5ksE7gVIUpNWe5/VjCiHroeyyTz9pIMlSE65V7nLJqq9Cmg==",
+  "_location": "/bootstrap-scss",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap-scss",
+    "name": "bootstrap-scss",
+    "escapedName": "bootstrap-scss",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-scss/-/bootstrap-scss-5.2.3.tgz",
+  "_shasum": "3c26b523a4af25c7f1de26b14999b149244fd7c3",
+  "_spec": "bootstrap-scss",
+  "_where": "C:\\Users\\User\\Desktop\\tested\\gulp-assembly",
+  "author": {
+    "name": "Cristian Trifan",
+    "email": "criss.trifan@gmail.com",
+    "url": "https://crissdev.com"
+  },
+  "bugs": {
+    "url": "https://github.com/crissdev/bootstrap-scss/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Bootstrap's SCSS files (only)",
+  "homepage": "https://github.com/crissdev/bootstrap-scss",
+  "keywords": [
+    "bootstrap",
+    "bootstrap-scss",
+    "responsive",
+    "scss"
+  ],
+  "license": "MIT",
+  "main": "bootstrap.scss",
+  "name": "bootstrap-scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crissdev/bootstrap-scss.git"
+  },
+  "version": "5.2.3"
+}
