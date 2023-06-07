@@ -3,27 +3,16 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
-@import "../libs/bootstrap/bootstrap-scss/bootstrap";
+//@import "../libs/bootstrap/bootstrap-scss/bootstrap";
+
+@import "fonts";
 
 // Then add additional custom code here
 
 body {
-  background-color: black;
-
+  font-family: JosefinSans;
+  font-size: 50px;
   span {
     color: red;
-  }
-}
-
-
-@media (max-width: 768px) {
-  span {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  body {
-    background-color: green;
   }
 }

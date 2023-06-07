@@ -1,19 +1,15 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230605135409">
-    <title>Home</title>
-</head>
-
+@@include('html/head.html', {
+    "title": "Главная"
+})
 <body>
+    @@include('html/header.html', {})
 
-<img src="/@img/g.jpeg" alt="">
-    <p class="text-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, voluptatibus?</p>
-
+    <main>
+        <span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur culpa ipsa numquam omnis porro sunt.</p></span>
+    </main>
+    @@include('html/footer.html', {})
 <script src="js/app.min.js?_v=20230605125150"></script>
 </body>
 </html>
