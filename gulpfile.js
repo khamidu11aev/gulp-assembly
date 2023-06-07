@@ -9,6 +9,8 @@ import { plugins } from "./gulp/config/plugins.js";
 
 // Передаём значение в глобальную переменную
 global.app = {
+    isBuild: process.argv.includes('--build'),
+    isDev: !process.argv.includes('--build'),
     path: path,
     gulp: gulp,
     plugins: plugins,
@@ -23,6 +25,7 @@ import { scss } from "./gulp/tasks/scss.js";
 import { js } from "./gulp/tasks/main.js";
 import { images } from "./gulp/tasks/images.js";
 import { otfToTtf, ttfToWoff, fontsStyle } from "./gulp/tasks/fonts.js";
+import { svgSprive } from "./gulp/tasks/svgSprive.js";
 
 
 // Наблюдатель за изменениями в файлах
@@ -33,6 +36,8 @@ function watcher() {
     gulp.watch(path.watch.js, js);
     gulp.watch(path.watch.images, images);
 }
+
+export { svgSprive }
 
 // Последовательная обработка шрифтов
 const fonts = gulp.series(otfToTtf, ttfToWoff, fontsStyle);
